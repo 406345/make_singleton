@@ -1,0 +1,15 @@
+[package]
+name = "make_singleton"
+version = "1.0.0"
+authors = ["yangshubo <yangshubo@outlook.com>"]
+edition = "2018"
+description = "a macro for generating singleton, "
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "0.11.11"
+quote = "0.3.15"
